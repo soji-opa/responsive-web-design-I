@@ -300,7 +300,10 @@ footer span{
         margin-bottom: 1.5%;
     }
     .link-service a{
+        text-align: center;
         padding: 2.5% 0;
+        border-bottom: 1px solid silver;
+		width: 100vw;
     }
     /* code for casing 4 */
     #casing4{

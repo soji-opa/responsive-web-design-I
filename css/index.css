@@ -261,7 +261,8 @@ footer .footer-section .last-p{
         width: 100%;
         text-align: center;
         padding: 3% 0;
-        border-bottom: 1px solid silver;
+		border-bottom: 1px solid silver;
+		width: 100vw;
     }
     /* code for casing 0 */
     .box1{
