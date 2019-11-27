@@ -1,0 +1,362 @@
+/* Use your own code or past solution for Great Idea Web Page CSS here! */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* code for services.html */
+
+.container2{
+	/* border: 1px red solid; */
+	max-width: 100%;
+	margin: auto;
+	padding: 20px;
+}
+
+/* code for header section of services html */
+.container2 header nav{
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 3% 0;	
+}
+.link-service{
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 15px;
+}
+nav a{
+	color: grey;
+    text-decoration: none;
+    font-size: larger;
+}
+nav a:visited{
+    color: purple;
+}
+nav a:hover{
+    color: silver;
+}
+
+/* code for image  */
+.services-header-img{
+	width: 100%;
+	margin-bottom: 3%;
+}
+
+/* code for casing3 first sectionin sevice.html */
+#casing3 .section1-service-html p{
+	width: 100%;
+	display: flex;
+	margin-bottom: 4%;
+	text-align: justify;
+}
+
+/* code for casing4 */
+#casing4{
+	width: 100%;
+	/* box-sizing: border-box; */
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 4%;
+	padding-bottom: 1.8%;
+	/* padding: 4% 0; */
+}
+
+/* code for casing4 first-parent */
+
+.first-parent{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.first-parent div{
+	width: 48%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 1.5% 2%;
+	text-align: justify;
+	background-color: rgb(238, 236, 236);
+	margin-bottom: 3%;
+}
+
+.first-child button{
+	margin: 4%;
+    width: 45%;
+	border-radius: 3px;
+	border: .5px solid black;
+    height: 15%;
+    margin-left: auto;
+	background-color: whitesmoke;
+}
+
+.second-child button{
+	margin: 4%;
+    width: 45%;
+	border-radius: 3px;
+	border: .5px solid black;
+    height: 15%;
+    margin-left: auto;
+	background-color: whitesmoke;
+}
+
+/* code for second parent */
+.second-parent{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.second-parent div{
+	width: 48%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 1.5% 2%;
+	text-align: justify;
+	background-color: rgb(238, 236, 236);
+	margin-bottom: 3%;
+}
+
+.third-child button{
+	margin: 4%;
+    width: 45%;
+	border-radius: 3px;
+	border: .5px solid black;
+    height: 15%;
+    margin-left: auto;
+	background-color: whitesmoke;
+}
+
+.fourth-child button{
+	margin: 4%;
+    width: 45%;
+	border-radius: 3px;
+	border: .5px solid black;
+    height: 15%;
+    margin-left: auto;
+	background-color: whitesmoke;
+}
+
+/* code for third-parent */
+.third-parent{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.third-parent div{
+	width: 48%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 1.5% 2%;
+	text-align: justify;
+	background-color: rgb(238, 236, 236);
+	margin-bottom: 3%;
+}
+
+.fifth-child button{
+	margin: 4%;
+    width: 45%;
+	border-radius: 3px;
+	border: .5px solid black;
+    height: 15%;
+    margin-left: auto;
+	background-color: whitesmoke;
+}
+
+.sixth-child button{
+	margin: 4%;
+    width: 45%;
+	border-radius: 3px;
+	border: .5px solid black;
+    height: 15%;
+    margin-left: auto;
+	background-color: whitesmoke;
+}
+
+/* code for the footer section of the services.html */
+.footer-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-container .services-info-img{
+	width: 100%;
+}
+
+.footer-container div{
+	width: 47%;
+	margin-top: 2%;
+}
+.footer-container p{
+	margin-bottom: 5%;
+	text-align: justify;
+}
+
+.footer-container ul{
+	width: 100%;
+	list-style: disc;
+	/* padding-bottom: 2%; */
+	padding-left: 21px;
+}
+.footer-container ul li{
+	
+	padding-bottom: 2%;
+
+}
+
+footer span{
+	display: flex;
+	justify-content: center;
+	margin: 8% 0;
+	font-size: small;
+}
+
+/* Stretch code for the services.html */
+
+@media (max-width: 800px){
+
+	.container2{
+		background: yellow;
+	}
+	.container2 header nav{
+        flex-direction: column-reverse;
+        margin: 2% 0;	
+    }
+    .img-service{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+    .link-service{
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 1.5%;
+    }
+}
+
+@media (max-width: 500px){
+
+    /* code for the header section */
+    .link-service{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1.5%;
+    }
+    .link-service a{
+        padding: 2.5% 0;
+    }
+    /* code for casing 4 */
+    #casing4{
+        width: 100%;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        padding-top: 4%;
+        padding-bottom: 1.8%;
+    }
+    .first-parent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-parent div{
+        width: 95%;
+        border: 1px solid black;
+        box-sizing: border-box;
+        padding: 1.5% 2%;
+        text-align: justify;
+        background-color: rgb(238, 236, 236);
+        margin-bottom: 3%;
+    }
+    .second-parent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-parent div{
+        width: 95%;
+        border: 1px solid black;
+        box-sizing: border-box;
+        padding: 1.5% 2%;
+        text-align: justify;
+        background-color: rgb(238, 236, 236);
+        margin-bottom: 3%;
+    }
+    .third-parent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .third-parent div{
+        width: 95%;
+        border: 1px solid black;
+        box-sizing: border-box;
+        padding: 1.5% 2%;
+        text-align: justify;
+        background-color: rgb(238, 236, 236);
+        margin-bottom: 3%;
+    }
+    .footer-container{
+        margin-top: 3%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-container div{
+        width: 95%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+}
